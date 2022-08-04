@@ -78,9 +78,6 @@ export function TelaCamera({ navigation }) {
               style={{ width: 350, height: 531, borderRadius: 20 }}
               source={{ uri: capturedPhoto }}
             />
-            <Text style={{fontSize: 15}}>
-              Verifique se a foto está legível!
-            </Text>
           </View>
 
         </Modal>
